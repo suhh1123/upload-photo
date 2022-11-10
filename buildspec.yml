@@ -14,4 +14,4 @@ phases:
     commands:
       - echo "Updating lambda Function..."
       - aws lambda update-function-code --function-name upload-photo-cp --zip-file fileb://deployment_package.zip
-      - echo "DONE!!"
+      - echo "DONE!"
