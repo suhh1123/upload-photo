@@ -8,6 +8,8 @@ logger.setLevel(logging.INFO)
 
 s3_client = boto3.client('s3')
 
+# test
+
 response  = {
     'statusCode': 200,
     'headers': {
